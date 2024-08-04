@@ -295,6 +295,7 @@
     border: 1px solid #d19c97;
     color: #000;
     background-color: #d19c97;
+    justify-content: space-between;
     padding: 13px 30px;
     font-size: 16px;
   }
@@ -304,8 +305,10 @@
     margin-right: -5.5%;
     padding-left: 5.5%;
     padding-top: 50px;
+    justify-content: space-between;
     padding-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
   }
   .footer .footer-desc {
     text-align: justify;
@@ -324,14 +327,18 @@
   .quick-links ul {
     list-style-type: none;
     padding: 0;
+    margin-right: 10px;
     line-height: 2;
+    
   }
   .quick-links ul a {
     text-decoration: none;
     color: #333;
   }
   .quick-links ul a i {
+    text-align: right;
     padding-right: 5px;
+
   }
   .footer .footer-input {
     border: none;
